@@ -1,6 +1,6 @@
 ## parseInt()
 
-` parseInt(string, radix);`
+`parseInt(string, radix);`
 
 1. 해당 함수는 문자열 인자를 분석하여 특정 진수의 정수를 반환한다.
 2. 첫 번째 인자를 문자열로 변환하고 그 문자열을 파싱하여 정수나 NaN을 리턴한다.
@@ -9,7 +9,7 @@
 
 ## reduce()
 
-` arr.reduce(callback[, initialValue])`
+`arr.reduce(callback[, initialValue])`
 
 1. 해당 메서드는 배열의 각 요소에 대해 주어진 리듀서 함수를 실행하고, 하나의 결과값을 반환한다.
 2. 총 네 개의 아래의 인자들을 가진다. 리듀서 함수의 반환 값은 누산기에 할당되고, 누산기는 순회 중 유지되므로 최종 결과는 하나의 값이 된다.
